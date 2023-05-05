@@ -1,0 +1,11 @@
+The algorithm takes in the input dictionary as a parameter and returns the output dictionary as per the requirements.
+
+
+-> Initialize an empty outputDict object with keys representing the seven days of the week.
+-> Loop through each key-value pair in the input dictionary.
+-> For each key, get the day of the week and add the corresponding value to the output dictionary at the corresponding day of the week key.
+-> If the current key is not the first one and there is a gap between the current day and the previous day, then calculate the mean of the previous day's value and the current day's value, and add that value to both the previous and next day's value in the output dictionary.
+-> Update the prevDayVal and prevDay variables for the next iteration.
+-> Return the outputDict object.
+
+Algo assumes that the input dictionary has only one entry per day. if there are multiple entries per day, the values will be added together in the output dictionary. 
